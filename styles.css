@@ -1,0 +1,90 @@
+body {
+    font-family: "Montserrat";
+    color: white;
+    background: linear-gradient(#237A57, #093028);
+    background-attachment: fixed;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  
+   }
+   
+ main {
+ width: 60%;
+ margin: auto;
+ text-align: center;
+}
+
+.main {
+ margin-bottom: 6vh;
+ padding: 2em;
+ background-color: rgba(255, 255, 255, .2);
+ border-radius: 20px;
+ border: none;
+ box-shadow: 0 0 20px rgba(0, 0, 0, .05);
+}
+
+h3 {
+ font-size: 1.25em;
+ margin-bottom: 10px;
+ mix-blend-mode: lighten;
+}
+
+input {
+    display: block;
+    width: 200px;
+    height: 30px;
+    border-radius: 40px;
+    border: 1px solid #093028;
+    margin: 10px auto;
+    padding: 0 4px;
+    font-size: .75em;
+    font-weight: bold;
+    font-family: "Helvetica";
+    letter-spacing: .1pc;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: rgba(255 , 255, 255, 0.5);
+}
+
+input:focus {
+    border-color: rgb(187, 255, 0);
+}
+
+input::placeholder {
+    color: white;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 40px;
+    border: none;
+    background-color: #8bda0e;
+    color: #093028;
+    font-size: .75em;
+    font-weight: bold;
+    font-family: "Helvetica";
+    letter-spacing: .1pc;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+   }
+
+   button:hover {
+    color: #8bda0e;
+    background-color: white;
+   }
+   
+   .red {
+    color: red;
+   }
+   
+   .green {
+    color: green;
+   }
+
+   
